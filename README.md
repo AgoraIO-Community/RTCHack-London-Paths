@@ -11,3 +11,12 @@ Using the RTC provided by agora.io for real-time analysis by IBM Watson to autom
 
 ## Feel free to contact me if you have any questions about this demo
 bratt.neumayer@gmail.com
+
+
+# Before you run the app
+- In AgoraioController, add your appID to:
+```
+agoraKit = AgoraRtcEngineKit.sharedEngine(withAppId: "", delegate: self)
+```
+
+- The app will join a specific channel "bnPaths". You can keep it, or change it as you wish.
